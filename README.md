@@ -8,7 +8,11 @@
 * 검색시 검색어가 들어간 모든영화 출력                                                                                                                                                                                                                                      
 * 영화에 대한 리뷰 작성, 수정, 삭제 및 찜 구현                                                                                                                                                                                                                              
 * 미디어 쿼리를 이용한 반응형 웹사이트 구현                                                                                                                                                                                                                                  
-* Route를 사용한 SPA 구현                                                                                                                                                                                                                                                 
+* Route를 사용한 SPA 구현
+
+## 플로우차트
+![순서도](https://github.com/user-attachments/assets/7359b71e-bb64-444a-bcf1-aeee7a6f6016)
+
 
 ## 구현 화면
 
@@ -33,71 +37,20 @@
   ![image](https://github.com/user-attachments/assets/d77b4bff-68c0-42db-852d-3873ef511e35)
   인기영화 목록 표시
 
+* 영화 상세정보 페이지
+  ![image](https://github.com/user-attachments/assets/041c49be-4125-4c2f-81a8-0418d7b302d4)
+  ![image](https://github.com/user-attachments/assets/be4b0855-4c17-486c-943a-0ed379686b3b)
+  영화에 대한 정보 표시 및 리뷰 작성 가능
 
+  ![image](https://github.com/user-attachments/assets/757eefc0-3a58-4c73-af9d-42f6b92d164b)
+  ![image](https://github.com/user-attachments/assets/07e91ec1-e644-47d1-8472-acb5e7281d62)
+  리뷰 수정 및 삭제 가능 (별점 포함)
 
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* 마이 페이지
+  ![image](https://github.com/user-attachments/assets/9d7ded19-54e4-4009-a8d0-feb64dc2d6cc)
+  ![image](https://github.com/user-attachments/assets/5b580952-94fc-481f-b74b-faaea0abae29)
+  하트 칸이 채워지면 찜 추가, 비워지면 찜 목록에서 삭제
+  영화에 찜을 하고 댓글을 작성하면
+  ![image](https://github.com/user-attachments/assets/8feb128e-05e3-4bc5-9b5a-bf4264ee7387)
+  마이페이지에 표시, 마찬가지로 마이페이지에서도 수정 삭제 가능
+  
